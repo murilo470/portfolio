@@ -8,7 +8,11 @@ function calcular() {
 
     resultado = 180 - (nota1trim + nota2trim);
 
-    alert(resultado)
+    if(resultado <= 0){
+        alert("parabéns! Você está aprovado, diferente da julia.");
+    }  else {
+        alert("Você ainda precisa tirar " + resultado + " no terceiro trimestre para ser aprovado. Estude!!!!!!!");
+    }
 
 
 }
