@@ -8,7 +8,7 @@ function calcular() {
 
     resultado = 180 - (nota1trim + nota2trim);
 
-    
+    alert(resultado)
 
 
 }
