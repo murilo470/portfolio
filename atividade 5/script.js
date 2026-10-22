@@ -7,9 +7,9 @@ function maior() {
 
     if(numero1 > numero2){
         alert("O número " + numero1 + " é maior que o número " + numero2 + ".");
-    }else{
-        alert("O número " + numero2 + " é maior que o número " + numero1 + ".");
-    }if(numero1 = numero2){
+    }else if(numero1 < numero2){
         alert("O número " + numero1 + " é igual ao número " + numero2 + ".");
-    }  
+    }else{
+        alert ("Os números são iguais");
+    }
 }
