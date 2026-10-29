@@ -5,6 +5,11 @@ function aleatorio() {
     let aleatorio = Math.random();
     let num = min + Math.trunc(dif * aleatorio);
 
+
     let mostrar = document.getElementById('resultado');
     mostrar.innerHTML = `<p>Acabei de pensar no número ${num}.</p>`
+
+     if (num == 67) {
+        alert("voce farmou muita aura 67.");
+    }
 }
