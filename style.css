@@ -13,7 +13,7 @@ a p{
 
 h1{
     text-align: center;
-    color: rgba(33, 209, 33, 0.788);
+    color: rgb(224, 230, 224);
 }
 
 a p:hover{
@@ -22,6 +22,6 @@ a p:hover{
 }
 
 body {
-    background-image: url("images\ \(1\).jfif");
+    background-image: url("neymar.png");
     background-size: 100%;
 }
